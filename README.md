@@ -10,8 +10,8 @@ Just replace the files in the corespondent location and recompile the ns-3-dce p
 
 Example
 ************ recompile dce
-cd /root/workspace/bake
 
+cd /root/workspace/bake
 ./bake.py configure -e dce-linux-1.2 -e dce-umip-1.2
 ./bake.py build -vvv
 
