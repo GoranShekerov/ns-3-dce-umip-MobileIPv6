@@ -7,6 +7,7 @@ This codes are aimed to simulate MIPv6 in ns-3 ussing dce-umip 1.2 on Ubuntu 12.
 
 
 Just replace the files in the corespondent location and compile the ns-3-dce project.
+
 Example
 ************ recompile dce
 cd /root/workspace/bake
