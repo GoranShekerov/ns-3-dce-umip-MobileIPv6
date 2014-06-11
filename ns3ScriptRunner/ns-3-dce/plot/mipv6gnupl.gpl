@@ -1,0 +1,51 @@
+
+set terminal gif
+# Velocity [km/h]
+# Routing Advertisement interval [s]
+# Number of backround node pairs
+
+# V bN Ra 
+
+set xlabel 'Routing Advertisement interval [s]'
+unset key
+
+# Throughput
+set output 'Tp_Ra.gif'
+set ylabel 'Throughput [kbps]'
+plot 'results_mean.txt' u 1:2 w lp
+
+
+# Packet loss 
+set output 'Pl_Ra.gif'
+set ylabel 'Packet loss [%]'
+plot 'results_mean.txt' u 1:3 w lp
+
+# Delay
+set output 'D_Ra.gif'
+set ylabel 'Delay [ms]'
+plot 'results_mean.txt' u 1:4 w lp
+
+# Jitter
+set output 'J_Ra.gif'
+set ylabel 'Jitter [ms]'
+plot 'results_mean.txt' u 1:5 w lp
+
+# Handover 
+set output 'H_Ra.gif'
+set ylabel 'Handover [s]'
+plot 'results_mean.txt' u 1:6 w lp
+
+# Handover 
+set output 'R_Ra.gif'
+set ylabel 'R Value'
+plot 'results_mean.txt' u 1:7 w lp
+
+
+# Throughput - Time
+set output 'Th_t.gif'
+set xlabel 'Time [sec]'
+set ylabel 'Throughput [Kbps]'
+plot 'Throughput.txt' u 1:2 w lp
+
+exit
+
