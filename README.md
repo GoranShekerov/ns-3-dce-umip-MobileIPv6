@@ -8,8 +8,6 @@ I did this in june 2014 using dce-umip 1.2 so there was not support for IPv6 soc
 In order to analize some network parametars as delay, jitter, throughput.. every application packet betwean CN and MN (or other control packets) must be uniquely identified (time and numerically). The ns3-tagging funcionality does not work with DCE so to accomplish analisis of the network parametars the folowing changes in the ns-3.20 and dce 1.2 code and additional module are implemented:
 
 - the function that creates the packets in the On-Off aplication (VoIP is implemented with On-Off) is modified to include generated time and numerical identification of the packet. In the simulation script, sinks in CN and MN nodes get this packets and send a copy to the "tpa" module.
- 
-- the function that creates the packets in the On-Off aplication (VoIP is implemented with On-Off) is modified to include generated time and numerical identification of the packet. In the simulation script, sinks in CN and MN nodes get this packets and send a copy to the "tpa" module.
 
 - tpa module (short from traffic performance analyzer) is aimed to calculate the statistics for the network parametars in the sistem.
 
