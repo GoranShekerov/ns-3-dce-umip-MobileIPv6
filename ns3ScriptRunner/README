@@ -1,5 +1,5 @@
 This is the C++ Qt GUI application code that is aimed to  
-automatize the process of configuring and running the mipv6test.cc script, 
+automate the process of configuring and running the mipv6test.cc script, 
 acheaving 95% confidende level for the results or at least 100 runs for particulat configuration.
 It also usses Gnuplot for plotting the visual graphs representing the results of the simulation.
 It can be ussed as a guidline. Any modification implies detailed understanding of the code, so god luck :).
