@@ -15,7 +15,7 @@ In order to analize some network parametars as delay, jitter, throughput.. every
 
 - The umip helper class in dce is modified in order to configure MIPv6 in CN for simulating Route Optimization scenario.
 
-- I've also created GUI aplication named "Ns3 script Runner" to automate the proces of executing the simulation script and generating data for ploting with gnuplot, acheaving 95% confidence level or at most 100 executions. 
+- I've also created GUI aplication named "ns3ScriptRunner" to automate the proces of executing the simulation script and generating data for ploting with gnuplot, acheaving 95% confidence level or at most 100 executions. 
 
 This codes are aimed to simulate MIPv6 in ns-3 ussing dce-umip 1.2, in my case on Ubuntu 12.04 x64
 
