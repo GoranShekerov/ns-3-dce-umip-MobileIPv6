@@ -20,7 +20,7 @@ In order to analize some network parametars as delay, jitter, throughput.. every
 This codes are aimed to simulate MIPv6 in ns-3 ussing dce-umip 1.2, in my case on Ubuntu 12.04 x64
 
 
-Just replace the files in the corespondent location and recompile the ns-3-dce project.
+Just replace the files in the corespondent location and recompile the ns-3-dce project. The simulation script is mipv6test.cc (https://github.com/GoranShekerov/ns-3-dce-umip-MobileIPv6/blob/master/bake/source/ns-3-dce/myscripts/mipv6test/mipv6test.cc)
 
 Example
 ************ recompile dce
