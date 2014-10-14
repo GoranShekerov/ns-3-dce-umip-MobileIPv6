@@ -4,7 +4,7 @@
 //
 //
 //  Simulation Topology:
-//  Scenario: CN pings MN (MN can be located in Home Network or in Foreign Network 1/2)
+//  Scenario: CN pings (or sends traffic) to MN
 //
 //                                        1        2
 //                                 +------+        +----+-----------+
