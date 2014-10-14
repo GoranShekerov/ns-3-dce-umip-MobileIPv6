@@ -25,7 +25,7 @@
 //                       | MN |  ========>                  
 //                       +----+                     
 //
-//  HoA: 2001:5::200:ff:fe00:11
+//  HoA: 2001:5::200:ff:fe00:202
 //  HA:  2001:5::200:ff:fe00:b
 //   
 //  Goran Shekerov (g_sekerov@yahoo.com)
