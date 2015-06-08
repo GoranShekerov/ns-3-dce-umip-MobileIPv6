@@ -1,4 +1,4 @@
-//
+// 
 //
 //  Mobile IPv6 (ns-3-dce-umip),  (by Hajime Tazaki, Mathieu Lackage, ..)
 //
@@ -28,7 +28,7 @@
 //  HoA: 2001:5::200:ff:fe00:202
 //  HA:  2001:5::200:ff:fe00:b
 //   
-//  Goran Shekerov (g_sekerov@yahoo.com)
+//  
 //
 
 
